@@ -1,13 +1,28 @@
 public class BackTest {
 
-    double initialAmount = 10000;
+    private final double initialAmount;
+    private double currentAmount;
     
-    public void setInitialAmount(double amount){
-        initialAmount = amount;
+    BackTest(int initialAmount){
+        this.initialAmount = initialAmount;
+        currentAmount = initialAmount;
     }
 
-    public double setInitialAmount(){
+    public void setCurrentAmount(double currentAmount){
+        this.currentAmount = currentAmount;
+    }
+
+    public double getInitialAmount(){
         return initialAmount;
+    }
+
+    public double getcurrentAmount(){
+        return this.currentAmount;
+    }
+
+    public double getpercentageReturn(){
+        double percentageReturn = (currentAmount - initialAmount)/initialAmount;
+        return percentageReturn;
     }
     
 }
