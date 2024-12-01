@@ -41,7 +41,6 @@ public class Stock {
             .send(request, HttpResponse.BodyHandlers.ofString());
         System.out.println(response.body());
 
-    
     }
 
     // private methods
@@ -58,4 +57,8 @@ public class Stock {
         System.out.println(apiURL);
     }
 
+
+    private void handleDataObject(){
+        return;
+    }
 }
