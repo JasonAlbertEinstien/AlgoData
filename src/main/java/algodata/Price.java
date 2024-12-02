@@ -1,3 +1,6 @@
+package algodata;
+
+
 import java.time.LocalDate;
 
 public class Price {

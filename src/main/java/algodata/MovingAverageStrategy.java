@@ -1,3 +1,5 @@
+package algodata;
+
 public class MovingAverageStrategy implements Strategy{
     
     private BackTest backtest = new BackTest(10000);

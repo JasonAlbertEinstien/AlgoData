@@ -1,3 +1,5 @@
+package algodata;
+
 public interface Strategy {
 
     void BuyIndicator();

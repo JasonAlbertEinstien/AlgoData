@@ -1,3 +1,6 @@
+package algodata;
+
+
 public class BackTest {
 
     private final double initialAmount;
